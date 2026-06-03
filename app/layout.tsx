@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Beauty Your Wall",
+  title: "Beautify",
   description: "A premium gallery of cars and landscapes wallpapers.",
 };
 

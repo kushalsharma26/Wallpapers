@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Category } from "../data";
 
 interface HeroProps {
@@ -19,8 +20,15 @@ export default function Hero({ selectedCategory, onSelectCategory }: HeroProps) 
       </div>
 
       <div className="relative z-10 flex flex-col items-center text-center px-6">
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-6 drop-shadow-lg">
-          Beauty Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Wall</span>
+        <Image
+          src="/logo.png"
+          alt="Beautify Logo"
+          width={80}
+          height={80}
+          className="mb-4 drop-shadow-xl"
+        />
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 drop-shadow-lg italic text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+          Beautify
         </h1>
         <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-10">
           Discover a curated collection of high-resolution cars and landscapes to elevate your screen.
