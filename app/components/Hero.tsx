@@ -21,13 +21,13 @@ export default function Hero({ selectedCategory, onSelectCategory }: HeroProps) 
 
       <div className="relative z-10 flex flex-col items-center text-center px-6">
         <Image
-          src="/logo.png"
-          alt="Beautify Logo"
+          src="/eagle.png"
+          alt="Eagle Logo"
           width={80}
           height={80}
           className="mb-4 drop-shadow-xl"
         />
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 drop-shadow-lg italic text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 drop-shadow-lg italic text-[#4A1F7F]">
           Beautify
         </h1>
         <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-10">

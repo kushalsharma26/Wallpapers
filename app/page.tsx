@@ -25,8 +25,9 @@ export default function Home() {
         <Gallery wallpapers={filteredWallpapers} />
       </div>
 
-      <footer className="w-full py-8 text-center text-zinc-500 border-t border-white/10 mt-auto">
+      <footer className="w-full py-8 text-center text-zinc-300 border-t border-white/10 mt-auto">
         <p>Built with Next.js & Tailwind CSS. Images from Unsplash.</p>
+        <p className="mt-2 text-white font-medium">created by kushal</p>
       </footer>
     </main>
   );
