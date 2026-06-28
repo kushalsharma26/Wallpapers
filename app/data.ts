@@ -344,5 +344,19 @@ export const wallpapers: Wallpaper[] = [
     "title": "Aesthetic Landscapes jevw55",
     "category": "Landscapes",
     "author": "Wallhaven"
-  }
+  },
+  {
+    "id": "pexels1",
+    "url": "https://images.pexels.com/photos/1000/pexels-photo-1000.jpeg",
+    "title": "Pexels Sample 1",
+    "category": "Cars",
+    "author": "Pexels"
+  },
+  {
+    "id": "pexels2",
+    "url": "https://images.pexels.com/photos/1001/pexels-photo-1001.jpeg",
+    "title": "Pexels Sample 2",
+    "category": "Landscapes",
+    "author": "Pexels"
+  },
 ];

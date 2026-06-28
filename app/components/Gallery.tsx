@@ -19,7 +19,7 @@ export default function Gallery({ wallpapers }: GalleryProps) {
   return (
     <div className="w-full max-w-7xl mx-auto px-6 pb-24">
       {/* Tailwind CSS Column Layout for Masonry Effect */}
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+      <div className="gallery-grid">
         {wallpapers.map((wallpaper) => (
           <div
             key={wallpaper.id}
